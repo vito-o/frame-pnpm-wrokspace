@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "frame-pnpm-wrokspace",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "pnpm -C play build",
+    "gen": "pnpm -C packages/docs-aid-editor build",
+    "update:version": "tsx scripts/update-version.ts",
+    "gen:publish": "sh scripts/publish.sh"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 18",
+    "pnpm": ">= 8"
+  }
+}
